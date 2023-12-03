@@ -18,8 +18,14 @@ for 2023, I'm planning to implement in python
 $ find -maxdepth 1 -type d -name 'day*' -not -name day00 | sort | xargs --replace bash -xc 'python {}/part1.py {}/input.txt; python {}/part2.py {}/input.txt'
 + python ./day01/part1.py ./day01/input.txt
 54601
-> 5053 μs
+> 1364 μs
 + python ./day01/part2.py ./day01/input.txt
 54078
-> 14199 μs
+> 2250 μs
++ python ./day02/part1.py ./day02/input.txt
+2101
+> 866 μs
++ python ./day02/part2.py ./day02/input.txt
+58269
+> 1355 μs
 ```
